@@ -1,10 +1,12 @@
 {
+  "attachmentFolderPath": "Images",
   "pdfExportSettings": {
     "includeName": true,
     "pageSize": "Letter",
     "landscape": false,
     "margin": "0",
-    "downscalePercent": 100
+    "downscalePercent": 69
   },
-  "showUnsupportedFiles": true
+  "showUnsupportedFiles": true,
+  "promptDelete": false
 }

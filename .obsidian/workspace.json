@@ -1,19 +1,21 @@
 {
   "main": {
-    "id": "f664f33833e87491",
+    "id": "88c142e2ff6e2fce",
     "type": "split",
     "children": [
       {
-        "id": "8502a768116c28dd",
+        "id": "0bccbf78d2989a1a",
         "type": "tabs",
         "children": [
           {
-            "id": "eb38aaecfdc4cfca",
+            "id": "cf3d9410935ea7c2",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Pasted Image 20240902104345_720.png"
+                "file": "SEM5.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -23,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "ce79955e34a9fbab",
+    "id": "ff37050d8e4b06f7",
     "type": "split",
     "children": [
       {
-        "id": "2a17400a51c592c6",
+        "id": "bc671286094d7abe",
         "type": "tabs",
         "children": [
           {
-            "id": "0639f307b4e0aad4",
+            "id": "d9222715b9e152b7",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -41,7 +43,7 @@
             }
           },
           {
-            "id": "03eb5fa68262943a",
+            "id": "5aba7f1f9c67787e",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -56,7 +58,7 @@
             }
           },
           {
-            "id": "474ee6e07c2cb173",
+            "id": "352de232a2ad79f5",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -67,23 +69,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 220.5
+    "width": 266.5
   },
   "right": {
-    "id": "25770e511b1816e7",
+    "id": "1967ac6c09d90257",
     "type": "split",
     "children": [
       {
-        "id": "383a7b41753b32cf",
+        "id": "4da138f43bfa2a4f",
         "type": "tabs",
         "children": [
           {
-            "id": "840c9ab3773aa5b3",
+            "id": "5a00a6da1baa8a5f",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pasted Image 20240902104345_720.png",
+                "file": "SEM5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,19 +97,19 @@
             }
           },
           {
-            "id": "056d1bc5f46635ff",
+            "id": "dc7ad1c54718f9ee",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pasted Image 20240902104345_720.png",
+                "file": "SEM5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "41dd6c6686c26c63",
+            "id": "acb31707d654fda0",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -118,20 +120,21 @@
             }
           },
           {
-            "id": "7e9251f8625e13b6",
+            "id": "2685eb0976c5a1c8",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pasted Image 20240902104345_720.png"
+                "file": "SEM5.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -141,25 +144,58 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "0639f307b4e0aad4",
+  "active": "cf3d9410935ea7c2",
   "lastOpenFiles": [
-    "Pasted Image 20240902104345_720.png",
-    "Untitled.md",
-    "systemtheory/System Theory Notes.md",
     "systemtheory/system-theory.excalidraw.md",
+    "systemtheory/System Theory Notes.md",
+    "mahttest/Drawing 2024-09-02 00.47.48.excalidraw.md",
     "grapth theory/practice1.md",
     "grapth theory/graph thoery notes.md",
-    "Untitled.canvas",
-    "grapth theory",
-    "Excalidraw",
-    "systemtheory",
+    "Why single inheritance and interfaces (Java).md",
+    "VsCode Tips and Tricks.md",
+    "Matrices Analysis/exercises.pdf",
+    "To Do.md",
+    "Trash.md",
     "Untitled",
-    "mahttest/Drawing 2024-09-02 00.47.48.excalidraw.md",
-    "mahttest",
-    "Testing.md",
-    "Welcome.md"
+    "Matrices Analysis/notes0527.pdf",
+    "Matrices Analysis/exam topics.pdf",
+    "Communication Networks/Slides2/Cinkler4_WiFi_NTN.pdf",
+    "Communication Networks/Slides2/Cinkler3_OpticalNetworks.pdf",
+    "Communication Networks/Slides2/09_mobile_4g_5g_Eng.pdf",
+    "Communication Networks/Slides2/08_mobile_3g_Eng.pdf",
+    "Communication Networks/Slides2/07_mobile_1g_2g_Eng.pdf",
+    "Communication Networks/Slides2/06_Signaling_Eng.pdf",
+    "Matrices Analysis/Notes.md",
+    "CP tips.md",
+    "Proof.md",
+    "Software Techniques/Tests/WhatsApp_Image_2024-06-07_at_16.58.48_4a8f5142.jpg",
+    "Software Techniques/Tests/Untitled.md",
+    "ComputerGraphics/Notes.md",
+    "Software Techniques/Tests/WhatsApp_Image_2024-06-07_at_16.58.48_bbcb3d49.jpg",
+    "Software Techniques/Tests/WhatsApp_Image_2024-06-07_at_16.58.48_7e14bc89.jpg",
+    "Software Techniques/Tests/ExampelTest 1.0.jpg",
+    "Software Techniques/Tests/ExampleTest 1.1.jpg",
+    "Software Techniques/Test.md",
+    "Software Techniques/Tests/IMG_20240601_102011_015.jpg",
+    "Software Techniques/Tests/IMG_20240601_102021_851.png",
+    "Software Techniques/Tests/IMG_20240601_102018_569.png",
+    "Software Techniques/Tests/IMG_20240601_102016_570.png",
+    "Software Techniques/Tests/IMG_20240601_102011_015.png",
+    "Software Techniques/Slides/To do.md",
+    "Communication Networks/NOte.md",
+    "Business Law/Notes.md",
+    "Registry Key.md",
+    "ComputerGraphics/Slides/Untitled.md",
+    "Communication Networks/Anki/7 History_NGN_Numbering.md",
+    "Communication Networks/Anki/6.The Link Layer.md",
+    "Communication Networks/Anki/5.Network Layer Control Plane.md",
+    "Communication Networks/Anki/4.Network Layer Data Plane.md",
+    "Communication Networks/Anki/3.Transport Layer.md",
+    "Communication Networks/Anki/2.Application Layer.md"
   ]
 }

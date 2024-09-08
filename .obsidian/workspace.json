@@ -11,9 +11,11 @@
             "id": "cf3d9410935ea7c2",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "grapth theory/graph thoery notes.md"
+                "file": "README.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "grapth theory/graph thoery notes.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "grapth theory/graph thoery notes.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "grapth theory/graph thoery notes.md"
+                "file": "README.md"
               }
             }
           }
@@ -149,18 +151,18 @@
   },
   "active": "cf3d9410935ea7c2",
   "lastOpenFiles": [
+    "grapth theory/graph thoery notes.md",
     "systemtheory/System_Theory_Notes.ipynb",
     "grapth theory/Grapth_Theory_Notes.ipynb",
     "Images/Pasted Image 20240902104345_720.png",
     "Images",
     "Untitled.canvas",
     "Pasted Image 20240902104345_720.png",
-    "SEM5.md",
+    "README.md",
     "systemtheory/system-theory.excalidraw.md",
     "systemtheory/System Theory Notes.md",
     "mahttest/Drawing 2024-09-02 00.47.48.excalidraw.md",
     "grapth theory/practice1.md",
-    "grapth theory/graph thoery notes.md",
     "Why single inheritance and interfaces (Java).md",
     "VsCode Tips and Tricks.md",
     "Matrices Analysis/exercises.pdf",

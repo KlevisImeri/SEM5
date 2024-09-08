@@ -11,9 +11,25 @@
             "id": "cf3d9410935ea7c2",
             "type": "leaf",
             "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "grapth theory/graph thoery notes.md"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "d8424fc0296d9f3e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b1347feda1a826ea",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM5.md",
+                "file": "systemtheory/System Theory Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 266.5
+    "width": 200
   },
   "right": {
     "id": "1967ac6c09d90257",
@@ -85,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SEM5.md",
+                "file": "grapth theory/graph thoery notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM5.md",
+                "file": "grapth theory/graph thoery notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM5.md"
+                "file": "grapth theory/graph thoery notes.md"
               }
             }
           }
@@ -151,25 +167,27 @@
   },
   "active": "cf3d9410935ea7c2",
   "lastOpenFiles": [
-    "systemtheory/system-theory.excalidraw.md",
     "systemtheory/System Theory Notes.md",
+    "systemtheory/System_Theory_Notes.ipynb",
+    "systemtheory/Untitled.ipynb",
+    "systemtheory/system-theory.excalidraw.md",
+    "Images",
+    "systemtheory/Drawing 2024-09-08 16.22.35.excalidraw.md",
+    "SEM5.md",
+    "grapth theory/graph thoery notes.md",
     "mahttest/Drawing 2024-09-02 00.47.48.excalidraw.md",
     "grapth theory/practice1.md",
-    "grapth theory/graph thoery notes.md",
     "Why single inheritance and interfaces (Java).md",
     "VsCode Tips and Tricks.md",
     "Matrices Analysis/exercises.pdf",
     "To Do.md",
     "Trash.md",
-    "Untitled",
     "Matrices Analysis/notes0527.pdf",
     "Matrices Analysis/exam topics.pdf",
     "Communication Networks/Slides2/Cinkler4_WiFi_NTN.pdf",
     "Communication Networks/Slides2/Cinkler3_OpticalNetworks.pdf",
     "Communication Networks/Slides2/09_mobile_4g_5g_Eng.pdf",
     "Communication Networks/Slides2/08_mobile_3g_Eng.pdf",
-    "Communication Networks/Slides2/07_mobile_1g_2g_Eng.pdf",
-    "Communication Networks/Slides2/06_Signaling_Eng.pdf",
     "Matrices Analysis/Notes.md",
     "CP tips.md",
     "Proof.md",
@@ -193,9 +211,6 @@
     "ComputerGraphics/Slides/Untitled.md",
     "Communication Networks/Anki/7 History_NGN_Numbering.md",
     "Communication Networks/Anki/6.The Link Layer.md",
-    "Communication Networks/Anki/5.Network Layer Control Plane.md",
-    "Communication Networks/Anki/4.Network Layer Data Plane.md",
-    "Communication Networks/Anki/3.Transport Layer.md",
-    "Communication Networks/Anki/2.Application Layer.md"
+    "Communication Networks/Anki/5.Network Layer Control Plane.md"
   ]
 }

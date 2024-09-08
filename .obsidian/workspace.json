@@ -11,9 +11,11 @@
             "id": "cf3d9410935ea7c2",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "grapth theory/graph thoery notes.md"
+                "file": "README.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -149,6 +151,7 @@
   },
   "active": "cf3d9410935ea7c2",
   "lastOpenFiles": [
+    "README.md",
     "systemtheory/System Theory Notes.md",
     "systemtheory/System_Theory_Notes.ipynb",
     "systemtheory/Untitled.ipynb",

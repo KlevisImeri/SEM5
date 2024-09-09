@@ -4,16 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "0bccbf78d2989a1a",
+        "id": "38ae334d8fb945b0",
         "type": "tabs",
         "children": [
           {
-            "id": "cf3d9410935ea7c2",
+            "id": "f1478d3297058a78",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "systemtheory/System Theory Notes.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "2d04dbdf12671cda",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "054f64fd5bdfb1da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "systemtheory/System Theory Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "systemtheory/System Theory Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "systemtheory/System Theory Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "systemtheory/System Theory Notes.md"
               }
             }
           }
@@ -146,20 +164,24 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "terminal:Open terminal": false
     }
   },
-  "active": "cf3d9410935ea7c2",
+  "active": "f1478d3297058a78",
   "lastOpenFiles": [
-    "README.md",
     "systemtheory/System Theory Notes.md",
-    "systemtheory/System_Theory_Notes.ipynb",
-    "systemtheory/Untitled.ipynb",
     "systemtheory/system-theory.excalidraw.md",
+    "systemtheory/2.ipynb",
+    "grapth theory/graph thoery notes.md",
+    "Excalidraw/Drawing 2024-09-09 23.13.24.excalidraw.md",
+    "Excalidraw",
+    "README.md",
+    "systemtheory/1.ipynb",
+    "systemtheory/Untitled.ipynb",
     "Images",
     "systemtheory/Drawing 2024-09-08 16.22.35.excalidraw.md",
     "SEM5.md",
-    "grapth theory/graph thoery notes.md",
     "mahttest/Drawing 2024-09-02 00.47.48.excalidraw.md",
     "grapth theory/practice1.md",
     "Why single inheritance and interfaces (Java).md",
@@ -171,8 +193,6 @@
     "Matrices Analysis/exam topics.pdf",
     "Communication Networks/Slides2/Cinkler4_WiFi_NTN.pdf",
     "Communication Networks/Slides2/Cinkler3_OpticalNetworks.pdf",
-    "Communication Networks/Slides2/09_mobile_4g_5g_Eng.pdf",
-    "Communication Networks/Slides2/08_mobile_3g_Eng.pdf",
     "Matrices Analysis/Notes.md",
     "CP tips.md",
     "Proof.md",
@@ -194,8 +214,6 @@
     "Business Law/Notes.md",
     "Registry Key.md",
     "ComputerGraphics/Slides/Untitled.md",
-    "Communication Networks/Anki/7 History_NGN_Numbering.md",
-    "Communication Networks/Anki/6.The Link Layer.md",
-    "Communication Networks/Anki/5.Network Layer Control Plane.md"
+    "Communication Networks/Anki/7 History_NGN_Numbering.md"
   ]
 }

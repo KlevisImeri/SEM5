@@ -89,5 +89,33 @@ $$x(t)=\int_{t_0}^t x'(\tau)d\tau + x(t_0)$$$$\epsilon(t)= \int_{\infty}^t\delta
 
 $\epsilon(t)x(t)$ -> x'(t)=(x(t)e(t))' = x'(t)e(t)+x(+0)\delta[t]
 
-x(t) = (2+e^-4t)e(x)
+$$x(t) = (2+e^{-4t})\epsilon(x)$$
 x'(t)=-4e^-4te(t) + 3*d(t)
+
+```desmos-graph
+y=x^2 | dashed | BLUE
+y=\left\{x\ge0:\ \ 1, 0\right\}
+```
+
+
+```python
+import micropip
+await micropip.install('matplotlib')
+import matplotlib.pyplot as plt
+
+fig, ax = plt.subplots()             # Create a figure containing a single Axes.
+ax.plot([1, 2, 3, 4], [1, 4, 2, 3])  # Plot some data on the Axes.
+plt.show()                           # Show the figure.
+```
+
+$$\begin{pmatrix}
+0 & 0 & 2 & 0 &  \\
+2 & 2  & 3 & 4 &   \\
+2  & 3 & 4 & 78 &  \\
+\end{pmatrix} \implies $$
+
+$$f(x)=\begin{cases}
+x^2  & x<2 & \to \epsilon(x)\\
+x-3 & x>5  \\
+x-10 & x>8  \\
+\end{cases}$$

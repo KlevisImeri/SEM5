@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "38ae334d8fb945b0",
+        "id": "d6dc95f80f6c22d8",
         "type": "tabs",
         "children": [
           {
-            "id": "f1478d3297058a78",
+            "id": "19a22977096ae37c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,17 +22,17 @@
         ]
       },
       {
-        "id": "2d04dbdf12671cda",
+        "id": "949228b9eb6c04f9",
         "type": "tabs",
         "children": [
           {
-            "id": "054f64fd5bdfb1da",
+            "id": "2ebb7e95930dc2d6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "systemtheory/System Theory Notes.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -168,10 +168,10 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "f1478d3297058a78",
+  "active": "2ebb7e95930dc2d6",
   "lastOpenFiles": [
-    "systemtheory/System Theory Notes.md",
     "systemtheory/system-theory.excalidraw.md",
+    "systemtheory/System Theory Notes.md",
     "systemtheory/2.ipynb",
     "grapth theory/graph thoery notes.md",
     "Excalidraw/Drawing 2024-09-09 23.13.24.excalidraw.md",

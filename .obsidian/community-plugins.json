@@ -4,5 +4,6 @@
   "code-emitter",
   "obsidian-desmos",
   "obsidian-latex-suite",
-  "terminal"
+  "terminal",
+  "obsidian-tikzjax"
 ]

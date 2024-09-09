@@ -65,9 +65,9 @@ $$ \epsilon[k] =
   $$x[k]=\sum\delta[k-i]*2^k=1\delta[k]+2\delta[k-1]+4\delta[k-2]+...$$
 
 1.  unit step with unit impulse
-	$$\epsilon[k]=\delta[k]+\delta[k-1]+\delta[k-2]..=\sum_0^\infty\delta[k-i]$$
+$$\epsilon[k]=\delta[k]+\delta[k-1]+\delta[k-2]..=\sum_0^\infty\delta[k-i]$$
 3. unit impulse with unit step
-	$$\delta[k]=\epsilon[k]-\epsilon[k-1]$$
+$$\delta[k]=\epsilon[k]-\epsilon[k-1]$$
 
 
 CT signals
@@ -92,10 +92,13 @@ $\epsilon(t)x(t)$ -> x'(t)=(x(t)e(t))' = x'(t)e(t)+x(+0)\delta[t]
 $$x(t) = (2+e^{-4t})\epsilon(x)$$
 x'(t)=-4e^-4te(t) + 3*d(t)
 
-```desmos-graph
-y=x^2 | dashed | BLUE
-y=\left\{x\ge0:\ \ 1, 0\right\}
-```
+```desmos-graph 
+y=x^2-10 | dashed | BLUE 
+y=\left\{x\ge0:\ \ 1, 0\right\} | RED
+``` 
+
+
+
 
 
 ```python
@@ -119,3 +122,67 @@ x^2  & x<2 & \to \epsilon(x)\\
 x-3 & x>5  \\
 x-10 & x>8  \\
 \end{cases}$$
+
+
+```tikz
+\usepackage{pgfplots}
+
+\begin{document}
+
+\begin{tikzpicture}
+\begin{axis}[
+	title={Unit step function},
+	xlabel={x},
+	ylabel={$\epsilon(x)$},
+	grid=both,
+	domain=-2:2,
+	samples=100,
+]
+\addplot[color=red,thick]{x >= 0 ? 1 : 0}; 
+\addlegendentry{$\epsilon(x)$}
+\end{axis}
+\end{tikzpicture}
+
+\end{document}
+```
+
+
+
+
+```tikz
+\begin{document}
+  \begin{tikzpicture}[domain=0:4]
+    \draw[very thin,color=gray] (-0.1,-1.1) grid (3.9,3.9);
+    \draw[->] (-0.2,0) -- (4.2,0) node[right] {$x$};
+    \draw[->] (0,-1.2) -- (0,4.2) node[above] {$f(x)$};
+    \draw[color=red]    plot (\x,\x)             node[right] {$f(x) =x$};
+    \draw[color=blue]   plot (\x,{sin(\x r)})    node[right] {$f(x) = \sin x$};
+    \draw[color=orange] plot (\x,{0.05*exp(\x)}) node[right] {$f(x) = \frac{1}{20} \mathrm e^x$};
+  \end{tikzpicture}
+\end{document}
+```
+
+
+```tikz
+\usepackage{pgfplots}
+
+\begin{document}
+
+\begin{tikzpicture}
+\begin{axis}[
+	title={Multiple Functions},
+	xlabel={$x$},
+	ylabel={$f(x)$},
+	domain=0:4,
+	grid=both,
+]
+\addplot[color=red]{x};
+\addlegendentry{$f(x) = x$}
+\addplot[color=cyan, thick]{sin(deg(x)))};
+\addlegendentry{$f(x) = \sin x$}
+\addplot[color=orange,thick]{0.05*exp(x)};
+\addlegendentry{$f(x) = \frac{1}{20} e^x$}
+\end{axis}
+\end{tikzpicture}
+\end{document}
+```

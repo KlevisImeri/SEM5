@@ -32,10 +32,10 @@ Deterministic <-> Stochastic  /oposites
 > DT signal := $x=x[t], t\in \mathbb{R}$
 
 Producing 
--  CTs :=$x(t)$ --sampling(regular)-> $x[k] = x(kT)$ T:=sample period
+-  CTs :=$x(t)$ --sampling(regular)-> $x[k]=x(kT)$ T:=sample period
 -  independently from CT S. ex. throwing cube. Ex:
 	- k number of throwing
-	- x[k] result of throwing
+	- $x[k]$ result of throwing
 	- k=1,5 (cant be turn into CT's)
 
 
@@ -73,7 +73,7 @@ $$\delta[k]=\epsilon[k]-\epsilon[k-1]$$
 CT signals
 ex: $e^{\alpha t}$,  $A\cos(wt)$,
 
-untit step: $\epsilon(t)=0, t \in R^-, 1 \in R^+$  e(0)=1 sometimes
+unit step: $\epsilon(t)=0, t \in R^-, 1 \in R^+$  e(0)=1 sometimes
 Dirac - impulse $$ \delta(t,\tau) = \frac{\epsilon(t) - \epsilon(t-\tau)}{\tau} , 0<t<\tau$$
 
 $$\int \delta[t]=1$$
@@ -87,10 +87,10 @@ Operations:
 
 $$x(t)=\int_{t_0}^t x'(\tau)d\tau + x(t_0)$$$$\epsilon(t)= \int_{\infty}^t\delta(\tau)d\tau$$ => $$ \delta(t)=\epsilon(t)$$
 
-$\epsilon(t)x(t)$ -> x'(t)=(x(t)e(t))' = x'(t)e(t)+x(+0)\delta[t]
+$\epsilon(t)x(t)$ -> $x'(t)=(x(t)e(t))' = x'(t)e(t)+x(+0)\delta[t]$
 
 $$x(t) = (2+e^{-4t})\epsilon(x)$$
-x'(t)=-4e^-4te(t) + 3*d(t)
+$$x'(t)=-4e^{-4t}\epsilon(t) + 3\delta(t)$$
 
 ```desmos-graph 
 y=x^2-10 | dashed | BLUE 
@@ -121,6 +121,10 @@ $$f(x)=\begin{cases}
 x^2  & x<2 & \to \epsilon(x)\\
 x-3 & x>5  \\
 x-10 & x>8  \\
+\end{cases}$$
+
+$$f(x)=\begin{cases}
+x^2 & x<2 \\
 \end{cases}$$
 
 

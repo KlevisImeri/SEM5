@@ -4,19 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "d6dc95f80f6c22d8",
+        "id": "fb50dc7a27a74e9c",
         "type": "tabs",
         "children": [
           {
-            "id": "19a22977096ae37c",
+            "id": "ff8a5555b815770f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "systemtheory/notes.md",
-                "mode": "source",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "b722b6f91a1e1282",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2484904f84969587",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +95,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "systemtheory/notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +111,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "systemtheory/notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +132,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "systemtheory/notes.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -147,17 +153,22 @@
       "command-palette:Open command palette": false,
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "terminal:Open terminal": false
+      "terminal:Open terminal": true
     }
   },
-  "active": "d9222715b9e152b7",
+  "active": "2484904f84969587",
   "lastOpenFiles": [
+    "2 lab.md",
+    "systemtheory/1.md",
+    "systemtheory/notes.md",
+    "config.yml",
     "AI/AI_2024_BME_Lecture_3_CSP.pdf",
     "AI/AI_2024_BME_Lecture_2b_InformedSearch_web.pdf",
     "AI/AI_2024_BME_Lecture_2a_Uninformed_Search_web.pdf",
     "AI/AI 2024 BME Lecture 1 Introduction_web.pdf",
     "AI",
-    "systemtheory/notes.md",
+    "Images/Pasted Image 20240902104345_720.png",
+    "systemtheory/System Theory Notes.md",
     "systemtheory/system-theory.excalidraw.md",
     "systemtheory/2.ipynb",
     "grapth theory/graph thoery notes.md",
@@ -166,14 +177,12 @@
     "README.md",
     "systemtheory/1.ipynb",
     "systemtheory/Untitled.ipynb",
-    "Images",
     "systemtheory/Drawing 2024-09-08 16.22.35.excalidraw.md",
     "SEM5.md",
     "mahttest/Drawing 2024-09-02 00.47.48.excalidraw.md",
     "grapth theory/practice1.md",
     "Why single inheritance and interfaces (Java).md",
     "VsCode Tips and Tricks.md",
-    "Matrices Analysis/exercises.pdf",
     "To Do.md",
     "Trash.md",
     "Matrices Analysis/Notes.md",
@@ -191,12 +200,9 @@
     "Software Techniques/Tests/IMG_20240601_102021_851.png",
     "Software Techniques/Tests/IMG_20240601_102018_569.png",
     "Software Techniques/Tests/IMG_20240601_102016_570.png",
-    "Software Techniques/Tests/IMG_20240601_102011_015.png",
     "Software Techniques/Slides/To do.md",
     "Communication Networks/NOte.md",
     "Business Law/Notes.md",
-    "Registry Key.md",
-    "ComputerGraphics/Slides/Untitled.md",
-    "Communication Networks/Anki/7 History_NGN_Numbering.md"
+    "Registry Key.md"
   ]
 }

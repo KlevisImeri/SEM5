@@ -180,7 +180,7 @@ x^2 & x<2 \\
 	domain=0:4,
 	grid=both,
 ]
-\addplot[color=red]{x};
+\addplot[color=red]{x-5*sin(deg(x))};
 \addlegendentry{$f(x) = x$}
 \addplot[color=cyan, thick]{sin(deg(x)))};
 \addlegendentry{$f(x) = \sin x$}
@@ -189,4 +189,10 @@ x^2 & x<2 \\
 \end{axis}
 \end{tikzpicture}
 \end{document}
+```
+
+
+```desmos-graph
+x-5*\sin(x) | dashed | blue
+
 ```

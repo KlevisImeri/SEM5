@@ -15,7 +15,7 @@
               "state": {
                 "file": "systemtheory/notes.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 379.5
   },
   "right": {
     "id": "1967ac6c09d90257",
@@ -150,20 +150,20 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "d9222715b9e152b7",
+  "active": "19a22977096ae37c",
   "lastOpenFiles": [
+    "README.md",
+    "AI/AI 2024 BME Lecture 1 Introduction_web.pdf",
     "AI/AI_2024_BME_Lecture_3_CSP.pdf",
     "AI/AI_2024_BME_Lecture_2b_InformedSearch_web.pdf",
     "AI/AI_2024_BME_Lecture_2a_Uninformed_Search_web.pdf",
-    "AI/AI 2024 BME Lecture 1 Introduction_web.pdf",
-    "AI",
     "systemtheory/notes.md",
+    "AI",
     "systemtheory/system-theory.excalidraw.md",
     "systemtheory/2.ipynb",
     "grapth theory/graph thoery notes.md",
     "Excalidraw/Drawing 2024-09-09 23.13.24.excalidraw.md",
     "Excalidraw",
-    "README.md",
     "systemtheory/1.ipynb",
     "systemtheory/Untitled.ipynb",
     "Images",
@@ -173,7 +173,6 @@
     "grapth theory/practice1.md",
     "Why single inheritance and interfaces (Java).md",
     "VsCode Tips and Tricks.md",
-    "Matrices Analysis/exercises.pdf",
     "To Do.md",
     "Trash.md",
     "Matrices Analysis/Notes.md",

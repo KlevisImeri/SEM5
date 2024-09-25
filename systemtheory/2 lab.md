@@ -2,22 +2,18 @@ exp1: Derivate
 $$x(t)=\epsilon(t)-\epsilon(t-\tau)\sin\left( \frac{\pi t}\tau \right)$$
 $$x'(t)=(\delta(t)-\delta(t-\tau)\sin\left( \frac{\pi t}{\tau} \right)+(\epsilon(t)-\epsilon(t-\tau)) \frac{\pi}{\tau}\cos\left( \frac{\pi t}{\tau} \right)$$
 
-exp2: Are these sepping in fucntoins?
-
+exp2: Are these stepping in fumctinos?
 1. $\epsilon[k-2]$ yes
 2. $\sin 2(t-1)$ no
-3. $\epsilon(t-1) \sin(2(t-1))$
+3. $\epsilon(t-1) \sin(2(t-1))$ yes
 
 exp 3  period?
 $cos(4t+5) \quad w=2 \frac{\pi}{t} = \frac{\pi}{2}$ periodic
-$cos[0.2k] \quad T=\frac{\pi}{0.2}\not\in R$  not periodic
-$cos[0.17\pi k] \quad L=\frac{2}{0.17}=\frac{200}{17}$ periodic
+$cos[0.2k] \quad T=\frac{\pi}{0.2}\in \mathbf{I}$  not periodic
+$cos[0.17\pi k] \quad L=\frac{2}{0.17}=\frac{200}{17} \in \mathbf{Q}$  periodic
 
 
 ```tikz
-\usepackage{tikz}
-\usepackage{amsmath}
-
 \begin{document}
 
 \begin{tikzpicture}
@@ -54,17 +50,19 @@ $cos[0.17\pi k] \quad L=\frac{2}{0.17}=\frac{200}{17}$ periodic
     }
 
 \end{tikzpicture}
+\end{document}
 ```
-
+p
 exp 4:
 ```tikz
-
+\begin{document}
 \begin{tikzpicture}
     \draw[thick] (0,0) rectangle (3,2);
     \node at (1.5, 1) {System};
     \draw[thick,->] (-2,1) -- (0,1) node[midway, above] {$u[k]$};
     \draw[thick,->] (3,1) -- (5,1) node[midway, above] {$y[k]$};
 \end{tikzpicture}
+\end{document}
 ```
 
 $y[k]=u[k+1]$ Not casual $y[0]=u[1]$
@@ -97,6 +95,7 @@ $$h[k]=-15 *0.8^k\epsilon [k]+2.5\delta[k]$$
 $$u[k]=\epsilon[k]0.6^k$$
 $$y[k]=?$$
 
-$$\sum_{i}u[k]h[k-i] = \sum_{p}u[p+i]h[i]$$
-$$y[k]=\sum_{i}u[i]h[k-i]=\sum_{i}\epsilon[i]0.6^i(-15 *0.8^k\epsilon [k-i]+2.5\delta[k-i])$$
-
+$$\sum_{i}u[i]h[k-i] = \sum_{k}u[k-i]h[i]$$
+$$y[k]=\sum_{i}u[i]h[k-i]=\sum_{i}\epsilon[i]0.6^i(-15 *0.8^{k-i}\epsilon [k-i]+2.5\delta[k-i])$$
+$$=-15\sum_{i}0.6^i0.8^{k-i}\epsilon[i]\epsilon[k-i]+2.5\sum_{i}0.6^i\epsilon[i]\delta[k-i]$$$$= -15\sum_{i=0}^{k}0.6^{i}0.8^{k-i} +2.5 \cdot 0.6^{k}$$ k>=0 else 0
+ if k>=0 else 0.6^k =0

@@ -43,21 +43,27 @@ $$A=\begin{bmatrix}
 0 & -0.24 \\
 1 & 1
 \end{bmatrix}$$
+
 $$|A-\lambda I|=|\lambda I-A|=\begin{bmatrix}
 \lambda & 0.24 \\
 -1 & \lambda-1
 \end{bmatrix}=\lambda^2-\lambda +0.24$$
+
 $$\lambda_{1}=0.6, \lambda_{2}=0.4$$
+
 $$L_{1}=\frac{{A-\lambda_{2} I}}{\lambda_{1}-\lambda_{2}}=\begin{bmatrix}
 -2 & -1.2 \\
 5 & 3
 \end{bmatrix}$$
+
 $$L_{2}=\frac{{A-\lambda_{1} I}}{\lambda_{2}-\lambda_{1}}=\begin{bmatrix}
 3 & 1.2 \\
 -5 & -2
 \end{bmatrix}$$
+
 Check:
 $$L_{1}+L_{2}=I$$
+
 $$k_1=c^TL_{1}b=\begin{bmatrix}
 0 & 1
 \end{bmatrix} \begin{bmatrix}
@@ -66,7 +72,8 @@ $$k_1=c^TL_{1}b=\begin{bmatrix}
 \end{bmatrix}\begin{bmatrix}
 -0.24  \\
 1.5
-\end{bmatrix}=3.3$$$$k_{2}=c^TL_{2}b=-1.8$$
+\end{bmatrix}=3.3$$
+$$k_{2}=c^TL_{2}b=-1.8$$
 $$y[k]=\sum_{i=0}^{k-1}(3.3\cdot 0.6^{k-1-i}+1.8\cdot 1.4^{k-1-i})\epsilon[k]\cdot 0.5^i+1\cdot u[k]\cdot 0.5^k$$
 $$y[k]=3.3 \cdot 0.6^{k-1}\sum_{0}^{k-1}\left( \frac{0.5}{0.6} \right)^i+1.8 \cdot 1.4^{k-1}\sum_{0}^{k-1}\left( \frac{0.5}{1.4} \right)^i+\epsilon[k]0.5^k$$
 $$=(33\cdot0.6^k+18\cdot0.4^k-14\cdot 0.5^k)\epsilon[k]$$

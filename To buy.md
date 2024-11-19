@@ -52,3 +52,12 @@ T4XGKO
 
 Note:
 I always prepare what we learn in the lecture for the lab but the questions are just specific about the written code in the lab collab notebook.
+
+
+
+Dear !
+
+I am Ana Silkin, QL8SD3. I am in my 3rd year of studies, and I have as Professional Subjects System Theory and Image Processing. The second mid-terms are in the same day, at the same time: 27 Nov. 2024 from 18:00 to 20:00. What can I do regarding that?
+
+Thank you in advance!
+the system theoru is at 7 pm

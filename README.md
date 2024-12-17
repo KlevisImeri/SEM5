@@ -20,3 +20,4 @@ https://youtu.be/TixUHjIVovE - VIKI
 | **Week 15** |               |                                |                  |                         |                     |                                 |                                |                 |                         |       |                 |
 | **Week 16** |               |                                |                  |                         |                     |                                 |                                |                 |                         |       |                 |
 
+$\frac{x\,\left(2\,x^2+9\,x+12\right)}{6}$
